@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cardOne, .cardTwo, .cardThree, .cardFour {
+    width: 390px;
+    margin-bottom: 40px;
+}
+
+.cardOne .img, .cardTwo .img, .cardThree .img, .cardFour .img {
+    background: linear-gradient(180deg, #EBF2F7 0%, #E1EBF7 100%);
+    height: 413px;
+    margin-bottom: 32px;
+}
+
+.cardTwo .img {
+    background: linear-gradient(181.55deg, #F4F5EF 3.81%, #E1E2DD 43.36%, #ECEDE7 98.96%);
+}
+
+.cardThree .img {
+    background: linear-gradient(180deg, #909090 0%, #EFEFEF 100%);
+}
+
+.cardFour .img {
+    background: linear-gradient(180deg, #DBDBDD 0%, #E2E2E4 44.7%, #EDEDEF 100%);
+}
+
+.img img {
+    width: 190px;
+    margin: 38px 0 0 101px;
+}
+
+.headerText {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 16px;
+}
+
+.headerText h3 {
+    width: 219px;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    line-height: 32px;
+    color: #2E3337;
+    padding: 0 71px 0 0;
+} 
+
+.headerText h2 {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 0;
+    color: #2E3337;
+}
+
+.headerText h2 span {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 29px;
+    color: #2E3337;
+}
+
+.cardOne p, .cardTwo p, .cardThree p, .cardFour p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+/*Блок с подробным описанием*/
+.detailWrap {
+    margin: 100px 0 200px 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.detailImg {
+    width: 585px;
+    height: 698px;
+    background: linear-gradient(180deg, #EBF2F7 0%, #E1EBF7 100%);
+}
+
+.detailImg img {
+    margin: 103px 0 0 154px;
+}
+
+.detailText {
+    width: 487px;
+    margin-left: 97px;
+}
+
+.detailText h1 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.detailText p {
+    font-size: 32px;
+    line-height: 36px;
+    color: #989898;
+    margin-bottom: 34px;
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 1px solid #D1D1D1;
+}
+
+table td {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    height: 54px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+#tree {
+    text-align: right;
+}
+
+.buy {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.detailText h2 {
+    margin-top: 45px;
+    width: 100px;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.detailText h2 span {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 29px;
+    color: #2E3337;
+}
+
+.buy a {
+    margin: 27px 0 0 191px;
+    font-family: 'Open Sans';
+    text-align: center;
+    padding: 17px 0 0 0;
+    width: 195px;
+    height: 37px;
+    background: #2E3337;
+    color: #FFFFFF;
+    text-decoration: none;
+}
